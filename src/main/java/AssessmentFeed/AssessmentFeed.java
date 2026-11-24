@@ -1,4 +1,4 @@
-package assessments;
+package AssessmentFeed;
 
 import java.util.ArrayList;
 import java.util.Collections;
