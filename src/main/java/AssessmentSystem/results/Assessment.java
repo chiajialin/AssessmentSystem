@@ -41,6 +41,7 @@ public abstract class Assessment implements Reportable {
         } else {
             ai = "AI not permitted";
         }
-        System.out.printf("Assessment type: %s (%s)%n",  title, ai);
+        double weightingInPercentage = weighting * 100.0;
+        System.out.printf("Assessment type: %s (%s, Max mark: %.0f, Weighting: %.0f%%)%n",  title, ai,  maxMark, weightingInPercentage);
     }
 }
